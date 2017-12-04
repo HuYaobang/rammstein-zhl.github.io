@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>About</title>
+  <?xml version="1.0" encoding="UTF-8" ?>
+<link rel="stylesheet" href="xml/css/xml.css"/>
+<link rel="stylesheet" href="xml/css/animate.css"/>
+<script src="xml/js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+</head>
+<body>
+  
+
+    <style>
+
+        <!DOCTYPE SPISOK [
+        <!ELEMENT SPISOK (INFORMATION)*>
+        <!ELEMENT INFORMATION (NAME,FACULTY,SPEC,GROUP,YEAR)>
+        <!ELEMENT NAME (#PCDATA)>
+       
+        <!ELEMENT FACULTY (#PCDATA)>
+        <!ELEMENT SPEC (#PCDATA)>
+        <!ELEMENT GROUP (#PCDATA)>
+        <!ELEMENT YEAR (#PCDATA)>
+        ]>
+    </style>
+<h1 class="wow fadeIn" data-wow-duration="1.5s">Обо мне</h1>
+<INFORMATION>
+  <NAME class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+    Автор: Лашкевич Егор Михайлович
+  </NAME>
+  <FACULTY class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.1s">
+    Факультет: Информационных технологий
+  </FACULTY>
+  <SPEC class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.4s">
+    Специальность: Программное обеспечение информационной <br /> безопасности мобильных систем 
+  </SPEC>
+  <GROUP class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.7s">
+    Группа: 7
+  </GROUP>
+    <YEAR class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
+        Год: 2017
+    </YEAR> 
+</INFORMATION>
+<div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="2s"><a href="index.html">На главную</a></div>
+</body>
+</html>

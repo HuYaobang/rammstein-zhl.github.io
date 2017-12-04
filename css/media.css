@@ -1,0 +1,130 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .icons {
+        width: 45vw;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .main_menu ul {
+        background-color:rgb(173,3,3);
+        display: none;
+        position:absolute;
+        width:100%;
+    }
+    .main_menu ul li{
+        display:block;
+    }
+    .icons {
+        width: 45vw;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    table {
+        overflow-x: auto;
+        display: block;
+        max-height:400px;
+    }
+    .news_img img {
+        max-width: 200px;
+        height: auto;
+    }
+    .content_top{
+        height:600px;
+    }
+
+    .xml_button i {
+        position: fixed !important;
+    }
+
+    .top {
+        position: fixed !important;
+    }
+    .icons {
+        width: 55vw;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    table {
+        max-height: 350px;
+    }
+    .news_img img {
+        max-width: 150px;
+        height: auto;
+    }
+    .content_top {
+        height: 400px;
+    }
+    .blog_text img {
+        max-width: 100%;
+        height: auto;
+        float: left;
+        margin: 0 17px 7px 0;
+    }
+
+    .xml_button i {
+        position: fixed !important;
+    }
+
+    .top {
+        position: fixed !important;
+    }
+    .icons {
+        width: 70vw;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    table {
+        max-height:300px;
+    }
+    .news_img img {
+        max-width: 100px;
+        height: auto;
+    }
+    .icons {
+        width: 90vw;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .main_menu ul{
+        display:block !important;
+    }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
